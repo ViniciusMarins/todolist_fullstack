@@ -1,1 +1,1 @@
-# todolist_fullstack
+# Projeto fullstack de uma todolist
