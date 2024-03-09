@@ -29,25 +29,25 @@ MYSQL_DB =
 
 #### Retornar lista de tarefas
 
-```http
+```bash
   GET localhost:3333/tasks
 ```
 
 #### Adicionar uma tarefa
-```http
+```bash
   POST localhost:3333/tasks
 ```
 
 #### Deletar uma tarefa
-```http
-  POST localhost:3333/tasks/${id}
+```bash
+  DELETE localhost:3333/tasks/${id}
 ```
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `number` | O ID da tarefa a ser removida |
 
 #### Atualizar uma tarefa
-```http
+```bash
   PUT localhost:3333/tasks/${id}
 ```
 | Parâmetro   | Tipo       | Descrição                                   |
